@@ -4,7 +4,7 @@
     {
         Console.WriteLine("Welcome to the OOPs Concept");
     }
-
+    
     public static void OOPTypes()
     {
         Console.WriteLine("There are 4 basic concept of OOPs");
