@@ -1,0 +1,72 @@
+﻿
+
+OOP:- OOP stands for Object-Oriented Programming.
+Object-oriented programming has several advantages over procedural programming:
+
+OOP is faster and easier to execute
+
+OOP provides a clear structure for the programs
+
+OOP helps to keep the C# code DRY "Don't Repeat Yourself", 
+and makes the code easier to maintain, modify and debug
+
+OOP makes it possible to create full reusable applications
+with less code and shorter development time
+
+            Abstraction in C#
+Abstraction is an important part of object oriented programming. 
+It means that only the required information is visible to the user and 
+the rest of the information is hidden.
+
+1.An Abstract Base class cannot be instantiated; 
+it means the object of that class cannot be created.
+No object can be created of the abstract class i.e.it cannot be instantiated.
+
+2.The abstract class is created using the keyword abstract 
+and some of the methods of the abstract class also contain the keyword abstract.
+
+3. The abstract methods in the abstract class are implemented actually only in the derived classes.
+
+4. If all the methods in the abstract class contain the keyword abstract, then that class is known as pure Abstract class.
+
+5.Class having the abstract keyword with some of its methods (not all) is known as an Abstract Base Class.
+
+6.The method of the abstract class that has no implementation is known as "operation". It can be defined as an abstract void method ();
+
+7. An abstract class holds the methods but the actual implementation of those methods is made in derived class.
+
+Note:- We use reference of the object then it will show only nessessary methods and properties(Abstaction)
+      And hide which are not necessary (Encapsulation).
+
+
+
+                             Abstract Class C#
+
+C# Abstract classes are used to declare common characteristics of subclasses.
+
+# A class which contain the abstarct keyword in its declaration is know as abstarct class.
+
+# It can only be used as a base classes that extend the abstract class.
+
+# If a class is defined as abstract then we can't create an instance of that class. 
+
+# By the creation of the derived class object where an abstract class is inherit from, 
+
+# we can call the method of the abstract class.
+
+# Abstract claases may or may not contain abstract methods, i.e., methods without body
+(public void Add(); )
+
+# if a class has at least one abstract, it cannot be instaintiated.
+
+
+# if  a class is decleared abstract, it cannot be instantained;
+# To use an abstract class, you have to inherit it from another clas, provide implementattions 
+   to the abstract methods in it.
+
+# An abstract class can have modifiers for the methods, properties etc.
+  An abstract class have constact and fields;
+  An abstact calss have constructors and destructors;
+
+
+
