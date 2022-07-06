@@ -65,8 +65,6 @@ C# Abstract classes are used to declare common characteristics of subclasses.
    to the abstract methods in it.
 
 # An abstract class can have modifiers for the methods, properties etc.
-  An abstract class have constact and fields;
+# An abstract class have constact and fields;
   An abstact calss have constructors and destructors;
-
-
-
+ 
